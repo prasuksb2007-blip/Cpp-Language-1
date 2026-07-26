@@ -1,14 +1,14 @@
 #include <iostream>
 
-using namespace std;
+
 
 int main(void) {
 	int i, j, k;
 	
-	cout << "Enter i: ";
-	cin >> i;
-	cout << "Enter j: ";
-	cin >> j;
+	std::cout << "Enter i: ";
+	std::cin >> i;
+	std::cout << "Enter j: ";
+	std::cin >> j;
 	
 	// increment i by 2
 	i += 2; 	
@@ -35,13 +35,13 @@ int main(void) {
 	if (j != 0)
 		k += (k / j);	
 	else
-		cout << "Division by zero error!" << endl;
+		std::cout << "Division by zero error!" << std::endl;
 	// assign k times k times k to k
 	k = k * k * k; 	
 
 	// increment k by i times j
 	k += (i * j);	
 	
-	cout << k << endl;
+	std::cout << k << std::endl;
 	return 0;
 }

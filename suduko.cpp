@@ -1,6 +1,6 @@
 #include <iostream>
 
-using namespace std;
+
 
 // The key to solve the problem is finding a rule (the simplest one!)
 // binding number in the bottom-right corner (x) with square side (n). 
@@ -17,8 +17,8 @@ int main(void) {
 
 	unsigned long n;
 
-	cout << "n = ";
-	cin >> n;
-	cout << (n * n - 2 * n + 2) << endl;
+	std::cout << "n = ";
+	std::cin >> n;
+	std::cout << (n * n - 2 * n + 2) << std::endl;
 	return 0;
 }

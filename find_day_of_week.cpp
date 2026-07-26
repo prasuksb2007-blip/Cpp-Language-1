@@ -2,13 +2,13 @@
 int main()
 {
     int yr,mn,day;
-    std::cout<<"year = ";
-    std::cin>>yr;
-    std::cout<<"month = ";
-    std::cin>>mn;
-    std::cout<<"day = ";
-    std::cin>>day;
-    std::cout<<"Date: "<<day<<"/"<<mn<<"/"<<yr<<std::endl;
+    std::std::cout<<"year = ";
+    std::std::cin>>yr;
+    std::std::cout<<"month = ";
+    std::std::cin>>mn;
+    std::std::cout<<"day = ";
+    std::std::cin>>day;
+    std::std::cout<<"Date: "<<day<<"/"<<mn<<"/"<<yr<<std::std::endl;
     //Decrease month number by 2;
     mn-=2;
     //if month number becomes less than 0, increment it by 12 and decrement year by 1;
@@ -36,6 +36,6 @@ int main()
 	mn += yr / 400;
 
 	// find a remainder of dividing month by 7
-    std::cout<<"Day of the week: "<<mn%7<<std::endl;
+    std::std::cout<<"Day of the week: "<<mn%7<<std::std::endl;
     return 0;
 }

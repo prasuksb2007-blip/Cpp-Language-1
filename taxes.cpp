@@ -1,24 +1,24 @@
 #include <iostream>
 #include <iomanip> // for setprecision
-using namespace std;
+
 
 int main(void) {
     float grossprice, taxrate, netprice, taxvalue;
     
-    cout << "Enter a gross price: ";
-    cin >> grossprice;
-    cout << "Enter a tax rate: ";
-    cin >> taxrate;
+    std::cout << "Enter a gross price: ";
+    std::cin >> grossprice;
+    std::cout << "Enter a tax rate: ";
+    std::cin >> taxrate;
     
     if(grossprice <= 0.0 || taxrate < 0.0 || taxrate > 100.0) {
-        cout << "Input data doesn't look correct - I refuse calculations." << endl;
+        std::cout << "Input data doesn't look correct - I refuse calculations." << std::endl;
     } else {
         netprice = grossprice / (1.0 + taxrate / 100.0);
         taxvalue = grossprice - netprice;
         
-        cout << fixed << setprecision(4); // Set precision to 4 decimal places
-        cout << "Net price: " << netprice << endl;
-        cout << "Tax value: " << taxvalue << endl;
+        std::cout << fixed << setprecision(4); // std::Set precision to 4 decimal places
+        std::cout << "Net price: " << netprice << std::endl;
+        std::cout << "Tax value: " << taxvalue << std::endl;
     }
     
     return 0;

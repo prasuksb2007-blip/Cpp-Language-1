@@ -1,17 +1,17 @@
 #include <iostream>
 
-using namespace std;
+
 
 int main(void) {
 
 	int n;
 
-	cout << "n = ";
-	cin >> n;
+	std::cout << "n = ";
+	std::cin >> n;
 
 	// two first elements are equal to zero
 	if(n == 1 || n == 2)
-		cout << 1 << endl;
+		std::cout << 1 << std::endl;
 	else {
 		// initially: a is first and b is second element
 		long a = 1, b = 1, c;
@@ -26,7 +26,7 @@ int main(void) {
 			// b becomes new previous element
 			b = c;
 		}
-		cout << c << endl;
+		std::cout << c << std::endl;
 	}
 	return 0;
 }

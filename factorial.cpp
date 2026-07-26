@@ -1,17 +1,17 @@
 #include <iostream>
 
-using namespace std;
+
 
 int main(void) {
 
     int n;
 
-    cout << "n = ";
-    cin >> n;
+    std::cout << "n = ";
+    std::cin >> n;
 
     // Handle base cases (0! and 1!)
     if(n == 0 || n == 1) {
-        cout << "1" << endl;
+        std::cout << "1" << std::endl;
     } else {
         // Initialize result to 1
         long long result = 1;
@@ -21,7 +21,7 @@ int main(void) {
             result *= i;
         }
 
-        cout << result << endl;
+        std::cout << result << std::endl;
     }
     return 0;
 }

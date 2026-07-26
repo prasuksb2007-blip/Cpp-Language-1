@@ -1,14 +1,14 @@
 #include <iostream>
 
-using namespace std;
+
 
 int main(void) {
 
 	bool answer; 
 	int value;
 	
-	cout << "Enter a value: ";
-	cin >> value;
+	std::cout << "Enter a value: ";
+	std::cin >> value;
 	
 	answer = 
 
@@ -35,6 +35,6 @@ int main(void) {
 	// it is equal to 111
 	value == 111; 
 	
-	cout << (answer ? "THAT'S TRUE :)" : "THAT'S NOT TRUE :(") << endl;
+	std::cout << (answer ? "THAT'S TRUE :)" : "THAT'S NOT TRUE :(") << std::endl;
 	return 0;
 }

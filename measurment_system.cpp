@@ -1,19 +1,19 @@
 #include <iostream>
 
-using namespace std;
+
 
 int main(void) {
 	int   sys; 		// measurement system
 	float m, ft, in;	// metres, feet and inches
 	int   ift;		// feet but as integer
 	
-	cout << "What is your measurement system? 0-metric/1-imperial: ";
-	cin >> sys;
+	std::cout << "What is your measurement system? 0-metric/1-imperial: ";
+	std::cin >> sys;
 
 	// metric?
 	if(sys == 0) {
-		cout << "m = ";
-		cin >> m;
+		std::cout << "m = ";
+		std::cin >> m;
 
 		// inches first
 		in = m / 0.0254;
@@ -21,14 +21,14 @@ int main(void) {
 		ift = in / 12;
 		// remainder is a real number of inches
 		in = in - (ift * 12);
-		cout << ift << "'" << in << "\"" << endl;
+		std::cout << ift << "'" << in << "\"" << std::endl;
 
 	// imperial?
 	} else if(sys == 1) {
-		cout << "ft = ";
-		cin >> ft;
-		cout << "in = ";
-		cin >> in;
+		std::cout << "ft = ";
+		std::cin >> ft;
+		std::cout << "in = ";
+		std::cin >> in;
 
 		// cumulate inches and feet as inches
 		in += 12 * ft;
@@ -36,7 +36,7 @@ int main(void) {
 		// convert inches into meters
 		m = in * 0.0254;
 
-		cout << m << "m" << endl;
+		std::cout << m << "m" << std::endl;
 	}
 	return 0;
 }

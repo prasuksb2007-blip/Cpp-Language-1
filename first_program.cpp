@@ -1,7 +1,8 @@
 #include <iostream>//we included iostream
-using namespace std;
+
 int main()
 {
-    cout << "It's me, Your first C++ Program" << endl;
+    std::cout << "It's me, Your first C++ Program" << std::endl;
     return 0;
 }
+

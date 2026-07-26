@@ -1,6 +1,6 @@
 #include <iostream>
 
-using namespace std;
+
 
 int main(void) {
 	int n;
@@ -8,8 +8,8 @@ int main(void) {
 	// 2 to the power of 0 is 1
 	unsigned long pow = 1;
 
-	cout << "n? ";
-	cin >> n;
+	std::cout << "n? ";
+	std::cin >> n;
 
 	// repeat it n times
 	for(int i = 0; i < n; i++) 
@@ -17,6 +17,6 @@ int main(void) {
 		// evaluate next power of 2
 		pow *= 2;
 
-	cout << pow << endl;
+	std::cout << pow << std::endl;
 	return 0;
 }

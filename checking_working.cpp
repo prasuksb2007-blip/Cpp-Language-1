@@ -1,6 +1,6 @@
 #include <iostream>
-using namespace std;
+
 int main() {
-    cout << "It's working" << endl;
+    std::cout << "It's working" << std::endl;
     return 0;
 }
