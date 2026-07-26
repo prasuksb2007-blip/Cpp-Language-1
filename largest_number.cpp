@@ -8,9 +8,9 @@ int main(void) {
   int max;
 
   /* read three numbers */
-  std::std::cin >> number1;
-  std::std::cin >> number2;
-  std::std::cin >> number3;
+  std::cin >> number1;
+  std::cin >> number2;
+  std::cin >> number3;
 
   /* we temporarily assume that the former number is the larger one */
   /* we will check it soon */
@@ -25,7 +25,7 @@ int main(void) {
     max = number3;
 
   /* we print the result */
-  std::std::cout << "The largest number is " << max << std::std::endl;
+  std::cout << "The largest number is " << max << std::endl;
 
   /* we finish the program successfully */
   return 0;

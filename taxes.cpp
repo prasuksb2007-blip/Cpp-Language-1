@@ -16,7 +16,7 @@ int main(void) {
         netprice = grossprice / (1.0 + taxrate / 100.0);
         taxvalue = grossprice - netprice;
         
-        std::cout << fixed << setprecision(4); // std::Set precision to 4 decimal places
+        std::cout << std::fixed << std::setprecision(4); // std::Set precision to 4 decimal places
         std::cout << "Net price: " << netprice << std::endl;
         std::cout << "Tax value: " << taxvalue << std::endl;
     }
