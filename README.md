@@ -7,8 +7,10 @@ A collection of foundational C++ programs covering basic algorithms, math logic,
 The repository contains the following core implementation files:
 
 * **`Near_ZeroRound_Number.cpp`**: Logic for rounding numbers close to zero.
+* **`bitwise_palindrome.cpp`**: Bitwise palindrome checking and related binary operations.
 * **`checking_working.cpp`**: General environment testing and sanity checks.
 * **`collatz's_hypothesis.cpp`**: Implementation of the Collatz's Hypothesis.
+* **`counting_bits.cpp`**: Bit counting and manipulation routines for binary representations.
 * **`decimal_roundoff.cpp`**: Functions handling decimal and floating-point precision rounding.
 * **`factorial.cpp`**: Standard iterative or recursive calculation for factorials.
 * **`fibonacci_sequence.cpp`**: Implementation of the Fibonacci number sequence generator.
