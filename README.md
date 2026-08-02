@@ -6,7 +6,6 @@ A collection of foundational C++ programs covering basic algorithms, math logic,
 
 The repository contains the following core implementation files:
 
-* **`Near_ZeroRound_Number.cpp`**: Logic for rounding numbers close to zero.
 * **`bitwise_palindrome.cpp`**: Bitwise palindrome checking and related binary operations.
 * **`checking_working.cpp`**: General environment testing and sanity checks.
 * **`collatz's_hypothesis.cpp`**: Implementation of the Collatz's Hypothesis.
@@ -20,6 +19,7 @@ The repository contains the following core implementation files:
 * **`largest_number.cpp`**: Logic to find the largest number among a given set of inputs.
 * **`leap_year.cpp`**: Conditionals to determine if a specific year is a leap year.
 * **`measurment_system.cpp`**: Unit conversion and handling utilities for measurement systems.
+* **`near_zeroround_number.cpp`**: Logic for rounding numbers close to zero.
 * **`numeric_system.cpp`**: Functions dealing with different base systems (e.g., binary, octal, decimal).
 * **`odd_even.cpp`**: Logic to find the number is even or odd from the given input.
 * **`operator.cpp`**: Basic examples of arithmetic and assignment operators.
@@ -29,7 +29,8 @@ The repository contains the following core implementation files:
 * **`positive_power_of_2.cpp`**: Efficient checks or calculations to find positive powers of two.
 * **`pyramaid_1.cpp`**: Logic to make pyramid border while keeping inside empty.
 * **`taxes.cpp`**: Tax calculation algorithms based on income brackets or specific rules.
-
+* **`time_duration.cpp`**:Program demonstrating duration between time.
+* **`vector_palindrome.cpp`**:Logic to check given vector is palindrome or not.
 ## 🚀 Getting Started
 
 ### Prerequisites
