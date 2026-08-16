@@ -1,8 +1,7 @@
 #include <iostream>
 
-
-
-int main(void) {
+int main(void) 
+{
 
 	bool answer; 
 	int value;
