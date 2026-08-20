@@ -1,4 +1,4 @@
-// Advanced string-related practice programs.
+// Advanced string-related practice programs 1.
 #include <iostream>
 #include <string>
 
@@ -22,5 +22,15 @@ int main(void)
   std::cout << S.compare(1, 1, "BC") + S.compare(2, 1, S, 2, 2) << std::endl;
   /*S.compare(1, 1, "BC")--> "B".compare("BC")-->-1 only C left then counting backward is -1
   S.compare(2, 1, S, 2, 2)--> "C".compare("C")--> 0*/
+// Case4: Finding Stringinside string
+  std::string greeting = "My name is Bond, James Bond.";
+  std::string we_need_him = "James";
+  if (greeting.find(we_need_him) != std::string::npos) //npos means not found.
+    std::cout << "OMG! He's here!" << std::endl;
+  else
+    std::cout << "It's not him." << std::endl;
+  int comma = greeting.find(',');
+  if (comma != std::string::npos)
+    std::cout << "Interesting. He used a comma." << std::endl;
   return 0;
 }

@@ -13,6 +13,7 @@ The repository contains the following core implementation files:
 * **`counting_bits.cpp`**: Bit counting and binary manipulation routines.
 * **`cross_multiplication_table.cpp`**: Cross multiplication table logic using loops and pointers.
 * **`decimal_roundoff.cpp`**: Decimal and floating-point rounding utilities.
+* **`defining_namespace.cpp`**: Learning all about namespace.
 * **`factorial.cpp`**: Standard factorial calculation logic.
 * **`fibonacci_sequence.cpp`**: Fibonacci sequence generation.
 * **`find_day_of_week.cpp`**: Determines the weekday for a given date.
@@ -36,9 +37,22 @@ The repository contains the following core implementation files:
 * **`pointers.cpp`**: Finds the minimum element in an array using pointers.
 * **`positive_power_of_2.cpp`**: Efficiently checks whether a number is a power of two.
 * **`pyramaid_1.cpp`**: Creates a pyramid pattern with an empty interior border style.
+* **`string_anagrams.cpp`**: Checks whether two words are anagrams.
+* **`string_find_replace.cpp`**: Replaces all occurrences of one substring with another.
+* **`string_function_IPaddress.cpp`**: Validates IPv4 addresses and reports formatting errors.
+* **`string_manipulation_pangrams.cpp`**: Manipulating string with the help of pangrams.
+* **`string_password_validation.cpp`**: Validates passwords for length, uppercase letters, digits, and special characters.
+* **`string_pattern_maching.cpp`**: Finds text matches using custom pattern characters and wildcards.
+* **`string_plaintext_formatting.cpp`**: Formats marked text using bold and emphasis notation.
+* **`string_remove_duplicate.cpp`**: Removes duplicate words from a sentence.
+* **`string_remove_duplicate_whitespace.cpp`**: Removes repeated spaces from a sentence.
+* **`string_remove_stop _words.cpp`**: Removes specified stop words from a sentence.
 * **`string.cpp`**: Basic string operations and input handling.
 * **`string2.cpp`**: Additional string manipulation examples.
-* **`string3.cpp`**: Advanced string-related practice programs.
+* **`string3.cpp`**: Advanced string-related practice programs 1.
+* **`string4.cpp`**: Advanced string-related practice programs 2.
+* **`string5.cpp`**: Functions related program for string practice programs..
+* **`string_templates.cpp`**: Replaces bracketed placeholders with supplied template values.
 * **`sum_n_number.cpp`**: Calculates the sum of the first n numbers.
 * **`switch_case.cpp`**: Demonstrates decision-making using switch-case statements.
 * **`taxes.cpp`**: Tax calculation routines.
